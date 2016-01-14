@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>A Mousesterious Adventure</title>
+<link rel="stylesheet/less" type="text/css" href="css/mousesteriousAdventure.less">
+<script src="js/less.min.js"></script>
+</head>
+
+<body>
+    <div id='mousteriousAdventure'>
+        <div id="content">
+            <div id="output"></div>
+            <div id="b1" class='baddie down'></div>
+        </div>
+
+        <div id="info"></div>
+
+        <div id="battle">
+            <h2>Battle!</h2>
+            <h3>Your turn</h3>
+            <div id="battle-field">
+                <div id="dmg">
+                    <div id="dmgPlayer"></div><div id="dmgEnemy"></div>
+                </div>
+                <div class="battle-baddie"></div>
+            </div>
+            <div id="battle-options">
+                <button id="attack">Ice spell (4 ap)</button>
+                <button id="attack2">Wind spell (6 ap)</button>
+                <button id="potion">potion (3 ap)</button>
+                <button id="endturn">end turn</button>
+            </div>
+            <div id="battle-stats">
+                <div id="player-stats">
+                    <h4>Player</h4>
+                    <p>HP: <span id="playerhp"></span></p>
+                    <p>AP: <span id="playerap"></span></p>
+                </div>
+                <div id="enemy-stats">
+                    <h4>Enemy</h4>
+                    <p>HP: <span id="enemyhp"></span></p>
+                    <p>AP: <span id="enemyap"></span></p>
+                </div>
+            </div>
+        </div>
+        <div id="inventory">
+            <h4>Inventory</h4>
+
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/mouseteriousAdventure.js"></script>
+</body>
+</html>
