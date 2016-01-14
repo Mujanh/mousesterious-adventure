@@ -13,14 +13,14 @@ And LESS.js can be downloaded here: http://lesscss.org/#download-options
 
 Add less.js to the head of the index.html you just downloaded:
 ```
-&lt;link rel="stylesheet/less" type="text/css" href="css/mousesteriousAdventure.less"&gt;
-&lt;script src="js/less.min.js">&lt;/script&gt;
+<link rel="stylesheet/less" type="text/css" href="css/mousesteriousAdventure.less">
+<script src="js/less.min.js"></script>
 ```
 
 Add the jquery library to your index.html, before your mouseteriousAdventure.js:
 ```
-&lt;script src="js/jquery.js">&lt;/script&gt;<br><br>
-&lt;script src="js/mouseteriousAdventure.js">&lt;/script&gt;
+<script src="js/jquery.js"></script>
+<script src="js/mouseteriousAdventure.js"></script>
 ```
 
 ###Try it out
