@@ -1642,6 +1642,7 @@ $(document).ready(function () {
 
             //Animate attack
             $('<div class="particle friendly"></div>')
+                .css('left', '100px')
                 .animate({
                     left: '670'
                 }, 'slow', 'swing', function () {
@@ -1698,8 +1699,9 @@ $(document).ready(function () {
 
             //Animate the attack
             $('<div class="particle icestorm"></div>')
+                .css('left', '100px')
                 .animate({
-                    left: '660'
+                    left: '660px'
                 }, 'slow', 'swing', function () {
 
                     //When animation is complete, update ap and hp
@@ -1750,8 +1752,9 @@ $(document).ready(function () {
 
             //Animate heal
             $('<div class="particle heal"></div>')
+                .css('top', '320px')
                 .animate({
-                    top: '250'
+                    top: '250px'
                 }, 'slow', 'swing', function () {
 
                     //When animation is complete, update ap and hp in dom elements
@@ -1829,8 +1832,9 @@ $(document).ready(function () {
                 attackSoundGoblin.play();
 
                 $('<div class="particle axe"></div>')
+                    .css('left', '650px')
                     .animate({
-                        left: '60'
+                        left: '60px'
                     }, 500, 'swing', function () {
                         //When animation is complete update player hp and enemy ap
                         $("#dmgPlayer").removeClass('green').addClass('red').text(dmgOutput).fadeIn();
@@ -1847,8 +1851,9 @@ $(document).ready(function () {
                 attackSoundDragon.play();
 
                 $('<div class="particle foe"></div>')
+                    .css('left', '650px')
                     .animate({
-                        left: '60'
+                        left: '60px'
                     }, 500, 'swing', function () {
                         //When animation is complete update player hp and enemy ap
                         $("#dmgPlayer").removeClass('green').addClass('red').text(dmgOutput).fadeIn();
